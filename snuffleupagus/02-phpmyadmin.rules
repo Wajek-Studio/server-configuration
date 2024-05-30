@@ -1,0 +1,5 @@
+sp.disable_function.function("ini_get").filename("/usr/share/phpmyadmin/libraries/classes/Html/Generator.php").param("option").value("suhosin.get.max_value_length").allow();
+sp.disable_function.function("ini_get").filename("/usr/share/phpmyadmin/libraries/classes/Controllers/HomeController.php").param("option").value("suhosin.request.max_value_length").allow();
+sp.disable_function.function("curl_setopt").filename("/usr/share/phpmyadmin/libraries/classes/Utils/HttpRequest.php").param("option").value("64").allow();
+sp.disable_function.function("ini_set").filename("/usr/share/phpmyadmin/libraries/classes/Controllers/Import/ImportController.php").param("option").value("memory_limit").allow();
+sp.disable_function.function("ini_set").filename("/usr/share/phpmyadmin/libraries/classes/Controllers/Export/ExportController.php").param("option").value("memory_limit").allow();

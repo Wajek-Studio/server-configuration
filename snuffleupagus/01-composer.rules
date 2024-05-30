@@ -4,3 +4,5 @@ sp.disable_function.function("function_exists").filename_r("phar:///usr/local/bi
 sp.disable_function.function("proc_open").filename_r("phar:///usr/local/bin/composer").allow();
 sp.disable_function.function("ini_get").filename_r("phar:///usr/local/bin/composer").allow();
 sp.disable_function.function("exec").filename_r("phar:///usr/local/bin/composer").allow();
+sp.disable_function.function("putenv").filename_r("phar:///usr/local/bin/composer").allow();
+sp.disable_function.function("curl_setopt").filename_r("phar:///usr/local/bin/composer").allow();

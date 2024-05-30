@@ -117,6 +117,6 @@ sp.disable_function.function("move_uploaded_file").param("to").value_r("\\.ph").
 sp.disable_function.function("move_uploaded_file").param("to").value_r("\\.ht").drop();
 
 # Logging lockdown
-sp.disable_function.function("ini_set").param("option").value_r("error_log").drop()
-sp.disable_function.function("ini_set").param("option").value_r("error_reporting").drop()
-sp.disable_function.function("ini_set").param("option").value_r("display_errors").drop()
+sp.disable_function.function("ini_set").param("option").value_r("error_log").drop();
+sp.disable_function.function("ini_set").param("option").value_r("error_reporting").drop();
+sp.disable_function.function("ini_set").param("option").value_r("display_errors").drop();
